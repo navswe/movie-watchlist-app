@@ -1,0 +1,86 @@
+html {
+  background: #272727;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  gap: 0px;
+  align-items:center;
+  padding: 0px 4px;
+  background: #137213;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+button {
+  height: 30px;
+  font-size: 18px;
+  padding: 0px 4px;
+  color: #1fb91f;
+  background-color: transparent;
+  border: 2px solid #1fb91f;
+  border-radius: 3px;
+  min-width: 125px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  transition: 0.5s;
+}
+
+.page {
+  width: calc(100vw - 520px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.movie-card img {
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.watchlist {
+  width: 26rem;
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  position: fixed;
+  top: px;
+  right: 0;
+  text-align: center;
+  
+}

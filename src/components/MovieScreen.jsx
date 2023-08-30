@@ -27,17 +27,17 @@ const MovieScreen = ({
     );
   });
 
-  // //increment & decrement functions to go to the previous page or the next page
-  // const increment = () => setPage(page + 1);
-  // const decrement = () => setPage(page - 1);
+  //increment & decrement functions to go to the previous page or the next page
+  const increment = () => setPage(page + 1);
+  const decrement = () => setPage(page - 1);
 
   return (
     <div className="page">
       {/* <h3>Add a movie to your watchlist</h3> */}
-      {/* <div className="btn-container">
+      <div className="btn-container">
         <button onClick={page !== 1 && decrement}>Previous</button>
         <button onClick={increment}>Next</button>
-      </div> */}
+      </div>
       <div className="movie-container">{movieDisplay}</div>
     </div>
   );
